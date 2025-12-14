@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="css/restaurant.css">
+</head>
+<body>
+   <!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark  py-3">
+
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#"> <i class="bi bi-egg-fried"></i> Maruthi<span class="text-warning">restaurant</span></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+        <li class="nav-item"><a class="nav-link" href="#service">service</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="home" class="text-white text-center d-flex align-items-center" 
+style="background:url('images/background.avif') center/cover; height:90vh;">
+  <div class="container">
+    <h1 class="display-3 fw-bold">Welcome to Our Restaurant</h1>
+    <p class="lead">Delicious food made with love</p>
+    <a href="#menu" class="btn btn-warning btn-lg mt-3">Explore Menu</a>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="py-5">
+  <div class="container">
+    <div class="row align-items-center g-4">
+      <div class="col-md-6">
+        <img src="images/photo-1556040220-4096d522378d.avif" class="img-fluid rounded h-300 w-300" alt="">
+      </div>
+      <div class="col-md-6">
+        <h2 class="fw-bold mb-3">About Us</h2>
+        <p>We serve fresh and authentic dishes crafted by expert chefs. Our restaurant offers a cozy environment where every bite feels like home.</p>
+        <p>Visit us for a memorable dining experience with flavorful cuisines from around the world.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- MENU -->
+<section id="menu" class="py-5 ">
+  <div class="container text-center">
+    <h2 class="fw-bold mb-5 text-warning">Our Menu</h2>
+
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHBpenphfGVufDB8fDB8fHww" class="card-img-top" alt="">
+          <div class="card-body">
+            <h5 class="card-title">Italian Pizza</h5>
+            <p class="card-text">Cheesy and delicious pizza baked with fresh toppings.</p>
+            <p class="fw-bold">₹399</p>
+            <button class="btn btn-lg btn-warning w-100"type="button"><i class="bi bi-basket-fill"></i> ADD TO CART</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="https://media.istockphoto.com/id/1074255410/photo/bacon-cheese-burger-with-beef-patty-tomato-onion-and-pizza-with-mozzarella-cheese-ham.webp?a=1&b=1&s=612x612&w=0&k=20&c=JP_DOCzdfDookSOf05eIcnSjY7kr549LwlROAIDmlT0=" class="card-img-top" alt="">
+          <div class="card-body">
+            <h5 class="card-title">Classic Burger</h5>
+            <p class="card-text">Juicy grilled patty with fresh veggies and sauces.</p>
+            <p class="fw-bold">₹249</p>
+            <button class="btn btn-lg btn-warning w-100"type="button"><i class="bi bi-basket-fill"></i> ADD TO CART</button>
+         
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="https://media.istockphoto.com/id/1166678093/photo/spaghetti-with-tomato-sauce-shot-on-rustic-wooden-table.webp?a=1&b=1&s=612x612&w=0&k=20&c=erpXXws4jgkKoywObeqOWAltGLdI8FMWsLBB1tHdTyk=" class="card-img-top" alt="">
+          <div class="card-body">
+            <h5 class="card-title">Creamy Pasta</h5>
+            <p class="card-text">Rich and creamy pasta cooked to perfection.</p>
+            <p class="fw-bold">₹299</p>
+            <button class="btn btn-lg btn-warning w-100"type="button"><i class="bi bi-basket-fill"></i> ADD TO CART</button>
+         
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="row g-4 py-3">
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHBpenphfGVufDB8fDB8fHww" class="card-img-top" alt="">
+          <div class="card-body">
+            <h5 class="card-title">Italian Pizza</h5>
+            <p class="card-text">Cheesy and delicious pizza baked with fresh toppings.</p>
+            <p class="fw-bold">₹399</p>
+            <button class="btn btn-lg btn-warning w-100"type="button"><i class="bi bi-basket-fill"></i> ADD TO CART</button>
+         
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="https://media.istockphoto.com/id/1074255410/photo/bacon-cheese-burger-with-beef-patty-tomato-onion-and-pizza-with-mozzarella-cheese-ham.webp?a=1&b=1&s=612x612&w=0&k=20&c=JP_DOCzdfDookSOf05eIcnSjY7kr549LwlROAIDmlT0=" class="card-img-top" alt="">
+          <div class="card-body">
+            <h5 class="card-title">Classic Burger</h5>
+            <p class="card-text">Juicy grilled patty with fresh veggies and sauces.</p>
+            <p class="fw-bold">₹249</p>
+            <button class="btn btn-lg btn-warning w-100"type="button"><i class="bi bi-basket-fill"></i> ADD TO CART</button>
+         
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="https://media.istockphoto.com/id/1166678093/photo/spaghetti-with-tomato-sauce-shot-on-rustic-wooden-table.webp?a=1&b=1&s=612x612&w=0&k=20&c=erpXXws4jgkKoywObeqOWAltGLdI8FMWsLBB1tHdTyk=" class="card-img-top" alt="">
+          <div class="card-body">
+            <h5 class="card-title">Creamy Pasta</h5>
+            <p class="card-text">Rich and creamy pasta cooked to perfection.</p>
+            <p class="fw-bold">₹299</p>
+            <button class="btn btn-lg btn-warning w-100"type="button"><i class="bi bi-basket-fill"></i> ADD TO CART</button>
+         
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="row g-4 py-3">
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHBpenphfGVufDB8fDB8fHww" class="card-img-top" alt="">
+          <div class="card-body">
+            <h5 class="card-title">Italian Pizza</h5>
+            <p class="card-text">Cheesy and delicious pizza baked with fresh toppings.</p>
+            <p class="fw-bold">₹399</p>
+             <button class="btn btn-lg btn-warning w-100"type="button"><i class="bi bi-basket-fill"></i> ADD TO CART</button>
+         
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="https://media.istockphoto.com/id/1074255410/photo/bacon-cheese-burger-with-beef-patty-tomato-onion-and-pizza-with-mozzarella-cheese-ham.webp?a=1&b=1&s=612x612&w=0&k=20&c=JP_DOCzdfDookSOf05eIcnSjY7kr549LwlROAIDmlT0=" class="card-img-top" alt="">
+          <div class="card-body">
+            <h5 class="card-title">Classic Burger</h5>
+            <p class="card-text">Juicy grilled patty with fresh veggies and sauces.</p>
+            <p class="fw-bold">₹249</p>
+            <button class="btn btn-lg btn-warning w-100"type="button"><i class="bi bi-basket-fill"></i> ADD TO CART</button>
+         
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="https://media.istockphoto.com/id/1166678093/photo/spaghetti-with-tomato-sauce-shot-on-rustic-wooden-table.webp?a=1&b=1&s=612x612&w=0&k=20&c=erpXXws4jgkKoywObeqOWAltGLdI8FMWsLBB1tHdTyk=" class="card-img-top" alt="">
+          <div class="card-body">
+            <h5 class="card-title">Creamy Pasta</h5>
+            <p class="card-text">Rich and creamy pasta cooked to perfection.</p>
+            <p class="fw-bold">₹299</p>
+            <button class="btn btn-lg btn-warning w-100"type="button"><i class="bi bi-basket-fill"></i> ADD TO CART</button>
+         
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="row g-4 py-3">
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHBpenphfGVufDB8fDB8fHww" class="card-img-top" alt="">
+          <div class="card-body">
+            <h5 class="card-title">Italian Pizza</h5>
+            <p class="card-text">Cheesy and delicious pizza baked with fresh toppings.</p>
+            <p class="fw-bold">₹399</p>
+            <button class="btn btn-lg btn-warning w-100"type="button"><i class="bi bi-basket-fill"></i> ADD TO CART</button>
+         
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="https://media.istockphoto.com/id/1074255410/photo/bacon-cheese-burger-with-beef-patty-tomato-onion-and-pizza-with-mozzarella-cheese-ham.webp?a=1&b=1&s=612x612&w=0&k=20&c=JP_DOCzdfDookSOf05eIcnSjY7kr549LwlROAIDmlT0=" class="card-img-top" alt="">
+          <div class="card-body">
+            <h5 class="card-title">Classic Burger</h5>
+            <p class="card-text">Juicy grilled patty with fresh veggies and sauces.</p>
+            <p class="fw-bold">₹249</p>
+            <button class="btn btn-lg btn-warning w-100"type="button"><i class="bi bi-basket-fill"></i> ADD TO CART</button>
+         
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="https://media.istockphoto.com/id/1166678093/photo/spaghetti-with-tomato-sauce-shot-on-rustic-wooden-table.webp?a=1&b=1&s=612x612&w=0&k=20&c=erpXXws4jgkKoywObeqOWAltGLdI8FMWsLBB1tHdTyk=" class="card-img-top" alt="">
+          <div class="card-body">
+            <h5 class="card-title">Creamy Pasta</h5>
+            <p class="card-text">Rich and creamy pasta cooked to perfection.</p>
+            <p class="fw-bold">₹299</p>
+            <button class="btn btn-lg btn-warning w-100"type="button"><i class="bi bi-basket-fill"></i> ADD TO CART</button>
+         
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- SERVICE -->
+<section id="service" class="py-5">
+  <div class="container text-center">
+    <h2 class="fw-bold mb-4 text-warning">service</h2>
+    <div class="row g-3">
+      <div class="col-12 col-md-4">
+  <div class="card h-100 text-center shadow-sm">
+    <div class="card-body">
+      <i class="bi bi-shop-window fs-1 text-warning mb-3"></i>
+      <h5 class="fw-bold">Dine-In Experience</h5>
+      <p>Relax and enjoy premium dining in a cozy ambiance.</p>
+
+      <button class="btn btn-outline-warning"
+        data-bs-toggle="collapse" data-bs-target="#service1">
+        View More
+      </button>
+
+      <div class="collapse mt-3" id="service1">
+        <p class="text-muted">Comfort seating, family-friendly space & elegant interiors.</p>
+      </div>
+    </div>
+  </div>
+      </div>
+       <div class="col-12 col-md-4">
+  <div class="card h-100 text-center shadow-sm">
+    <div class="card-body">
+      <i class="bi bi-bag-check fs-1 text-warning mb-3"></i>
+      <h5 class="fw-bold">Online Delivery</h5>
+      <p>Fast, safe & hygienic doorstep delivery.</p>
+
+      <button class="btn btn-outline-warning"
+        data-bs-toggle="collapse" data-bs-target="#service2">
+        View More
+      </button>
+
+      <div class="collapse mt-3" id="service2">
+        <p class="text-muted">Available on Swiggy, Zomato & direct orders.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+       <div class=" col-12 col-md-4">
+  <div class="card h-100 text-center shadow-sm">
+    <div class="card-body">
+      <i class="bi bi-cup-hot fs-1 text-warning mb-3"></i>
+      <h5 class="fw-bold">Catering Services</h5>
+      <p>Perfect food for weddings & corporate events.</p>
+
+      <button class="btn btn-outline-warning"
+        data-bs-toggle="collapse" data-bs-target="#service3">
+        View More
+      </button>
+
+      <div class="collapse mt-3" id="service3">
+        <p class="text-muted">Customized menu, bulk orders & premium service.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+    </div>
+  </div>
+</section>
+
+ <!-- CONTACT -->
+<section id="contact" class=" text-warning py-3">
+  <div class="container text-center">
+    <h2 class="fw-bold mb-4">reserve your table!</h2>
+
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <form>
+          <input class="form-control mb-3" type="text" placeholder="Your Name" required>
+          <input class="form-control mb-3" type="email" placeholder="Your Email" required>
+          <input class="form-control mb-3" type="date" name="date" id="date">
+          <textarea class="form-control mb-3" rows="4" placeholder="Message"></textarea>
+          <input type="time" class="form-control mb-3" required>
+          <select class="form-select form-control mb-3">
+             <option value="1">1 people</option>
+             <option value="2">2 people</option>
+             <option value="3">3 people</option>
+             <option value="4">4 people</option>
+             <option value="5">5 people</option>
+          </select>
+          <button class="btn btn-warning w-100">confirm reservations</button>
+        </form>
+      </div>
+    </div>
+
+  </div>
+</section>
+<section id="footer">
+   <!--FOOTER -->
+<footer class=" text-white pt-5 pb-4 mt-1">
+  <div class="container">
+    <div class="row g-4">
+
+      <!-- About -->
+      <div class="col-md-3 col-12">
+        <h5 class="fw-bold mb-3">Maruthi<span class="text-warning">restaurant</span></h5>
+        <p>We serve delicious, fresh meals prepared by expert chefs. Visit us for an unforgettable dining experience.</p>
+
+        <div class="d-flex gap-3 fs-4 mt-3">
+          <a href="#" class="text-white"><i class="bi bi-facebook icon-hover"></i></a>
+          <a href="#" class="text-white"><i class="bi bi-instagram icon-hover"></i></a>
+          <a href="#" class="text-white"><i class="bi bi-twitter icon-hover"></i></a>
+          <a href="#" class="text-white"><i class="bi bi-youtube icon-hover"></i></a>
+        </div>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="col-md-3 col-6">
+        <h5 class="fw-bold mb-3">Quick Links</h5>
+        <ul class="list-unstyled">
+          <li class="mb-2"><a href="#home" class="text-white text-decoration-none">Home</a></li>
+          <li class="mb-2"><a href="#about" class="text-white text-decoration-none">About Us</a></li>
+          <li class="mb-2"><a href="#menu" class="text-white text-decoration-none">Menu</a></li>
+          <li class="mb-2"><a href="#service" class="text-white text-decoration-none">service</a></li>
+          <li class="mb-2"><a href="#contact" class="text-white text-decoration-none">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Opening Hours -->
+      <div class="col-md-3 col-6">
+        <h5 class="fw-bold mb-3">Opening Hours</h5>
+        <ul class="list-unstyled">
+          <li class="mb-2">Mon – Fri: 10:00 AM – 10:00 PM</li>
+          <li class="mb-2">Sat: 10:00 AM – 11:30 PM</li>
+          <li class="mb-2">Sun: Closed</li>
+        </ul>
+      </div>
+
+      <!-- Newsletter -->
+      <div class="col-md-3 col-12">
+        <h5 class="fw-bold mb-3">Newsletter</h5>
+        <p>Subscribe to get updates on new dishes and offers.</p>
+        <form>
+          <input type="email" class="form-control mb-2" placeholder="Enter your email">
+          <button class="btn btn-warning w-100">Subscribe</button>
+        </form>
+      </div>
+
+    </div>
+
+    <hr class="border-light mt-4">
+
+    <div class="text-center">
+      <p class="mb-0">&copy;2025 MaruthiRestaurant.all rights are reserved</p>
+    </div>
+  </div>
+</footer>
+
+</section>
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" 
+   integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" 
+   crossorigin="anonymous"></script>
+</body>
+</html
