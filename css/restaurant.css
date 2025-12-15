@@ -1,0 +1,45 @@
+:root
+{
+   --light-brown:#d69055;
+   --light-sandal:#f2d9c5;
+   --brown:#8c5a41;
+   --bg-color:#e2d8ce;
+   --dark-brown:#6f422b;
+   --btn-color:#998b8b; 
+}
+.navbar
+{
+ background-color: #8c5a41;
+ position:sticky;
+ top:0;
+ left:0;
+ right:0;
+ z-index:1;
+}
+/* .navbar .nav-item:hover{ color:yellow;}*/
+/* navbar */
+nav i{font-weight: bold; color:yellow;}
+    /* menu styling */
+
+#menu .card{transition: all .1s ease;}
+ #menu .card:hover{
+   transform: translate(-10px,-10px);
+   box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+#menu .btn:hover{transform:scale(1.05)}
+.icon-hover{transition:0.3s}
+.icon-hover:hover{color: #ffc107; transform:scale(1.2s)}
+                             /* service styling */
+#service{background-color: #8c5a41;}
+#service .card{transition: transform .2s ease;}
+#service .card:hover{transform: translate(-5px,-5px);}
+                             /* footer styling */
+footer{background-color: #8c5a41;}
+                                /* menu styling */
+{
+   background-color: #6f422b;
+}
+                                     /* about */
+#about{background-color:#f2d9c5 ;}
+                             /* contacts styling */
+#contact{background-color: var(--btn-color);}
